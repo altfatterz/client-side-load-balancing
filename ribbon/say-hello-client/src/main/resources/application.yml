@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: say-hello-client
+
+say-hello-service:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8081,localhost:8082,localhost:8083
